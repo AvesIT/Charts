@@ -19,10 +19,10 @@ fullnameOverride: ""
 
 nodeSelector: {}
 
-persistence:
-  size: 100Gi
-  type: hostPath
-  storageClass: default
+#persistence:
+        #size: 100Gi
+  #type: hostPath
+  #storageClass: default
 #  hostPath: /path/on/the/host
 
 # Change this if you're using different address ranges for pods
