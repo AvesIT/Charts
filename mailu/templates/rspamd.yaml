@@ -19,11 +19,11 @@ spec:
         imagePullPolicy: Always
         resources:
           requests:
-            memory: {{ default "100Mi" .Values.rspamd.resources.requests.memory }}
-            cpu: {{ default "100m" .Values.rspamd.resources.requests.cpu }}
+            memory: {{ .Values.rspamd.resources.requests.memory | default "100Mi" | quote }}
+            cpu: {{ .Values.rspamd.resources.requests.cpu | default "100m" | quote }}
           limits:
-            memory: {{ default "200Mi" .Values.rspamd.resources.limits.memory }}
-            cpu: {{ default "200m" .Values.rspamd.resources.limits.cpu }}
+            memory: {{ .Values.rspamd.resources.limits.memory | default "200Mi" | quote }}
+            cpu: {{ .Values.rspamd.resources.limits.cpu | default "200m" | quote }}
         volumeMounts:
           - name: data
             subPath: rspamd
@@ -33,7 +33,7 @@ spec:
             mountPath: /dkim
         env:
           - name: LOG_LEVEL
-            value: {{ default .Values.logLevel .Values.rspamd.logLevel }}
+            value: {{ .Values.rspamd.logLevel | default .Values.logLevel }}
           - name: FRONT_ADDRESS
             value: {{ include "mailu.fullname" . }}-front
           - name: REDIS_ADDRESS
