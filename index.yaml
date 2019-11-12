@@ -3,16 +3,16 @@ entries:
   mailu:
   - apiVersion: v1
     appVersion: "1.8"
-    created: "2019-11-11T10:29:03.43392091Z"
+    created: "2019-11-12T15:28:37.758835687Z"
     description: Mailu mail system
-    digest: 380459a8b053b8883579ab15dc7e2cb784c83e4a46ab7cd424ac58d6a6f5a58c
+    digest: 565d61487434838c2881db79721f2daf3b8adbe3d71212aa9a9dac39e87a5a8a
     name: mailu
     urls:
     - https://avesit.github.io/Charts/mailu-0.0.2.tgz
     version: 0.0.2
   - apiVersion: v1
     appVersion: "1.8"
-    created: "2019-11-11T10:29:03.43304535Z"
+    created: "2019-11-12T15:28:37.758303237Z"
     description: Mailu mail system
     digest: 1a5a4b3f5248801ce8a1c00f9d38c39239a77ef754ba188de024d1b964d1b2a2
     name: mailu
@@ -21,7 +21,7 @@ entries:
     version: 0.0.1
   - apiVersion: v1
     appVersion: "1.8"
-    created: "2019-11-11T10:29:03.431784756Z"
+    created: "2019-11-12T15:28:37.757337709Z"
     description: Mailu mail system
     digest: 939e0e14a1364253d066a646a432acbaeb06aa0ddeb3926ea5e2e17f5c0d2f84
     name: mailu
@@ -30,11 +30,11 @@ entries:
     version: 0.0.1.2
   - apiVersion: v1
     appVersion: "1.8"
-    created: "2019-11-11T10:29:03.431255871Z"
+    created: "2019-11-12T15:28:37.756384772Z"
     description: Mailu mail system
     digest: 328c7545702c2f433562ae9195dac76ce1733f23b3211c4237c789921f152174
     name: mailu
     urls:
     - https://avesit.github.io/Charts/mailu-0.0.1.1.tgz
     version: 0.0.1.1
-generated: "2019-11-11T10:29:03.430448865Z"
+generated: "2019-11-12T15:28:37.754982108Z"
