@@ -3,16 +3,16 @@ entries:
   mailu:
   - apiVersion: v1
     appVersion: "1.8"
-    created: "2019-11-22T09:43:02.868792441Z"
+    created: "2019-11-22T10:32:25.246811255Z"
     description: Mailu mail system
-    digest: 405fbfbe9adbc7c26600d8ef40bdd60ec31d6b117e38b3de78427082eadc5c52
+    digest: 3caa6e898c83b997aa96e7ac0c5d1821008cb43c68e8fbca2352235603f92166
     name: mailu
     urls:
     - https://avesit.github.io/Charts/mailu-0.0.2.tgz
     version: 0.0.2
   - apiVersion: v1
     appVersion: "1.8"
-    created: "2019-11-22T09:43:02.867907936Z"
+    created: "2019-11-22T10:32:25.245931517Z"
     description: Mailu mail system
     digest: 1a5a4b3f5248801ce8a1c00f9d38c39239a77ef754ba188de024d1b964d1b2a2
     name: mailu
@@ -21,7 +21,7 @@ entries:
     version: 0.0.1
   - apiVersion: v1
     appVersion: "1.8"
-    created: "2019-11-22T09:43:02.866750053Z"
+    created: "2019-11-22T10:32:25.24507723Z"
     description: Mailu mail system
     digest: 939e0e14a1364253d066a646a432acbaeb06aa0ddeb3926ea5e2e17f5c0d2f84
     name: mailu
@@ -30,7 +30,7 @@ entries:
     version: 0.0.1.2
   - apiVersion: v1
     appVersion: "1.8"
-    created: "2019-11-22T09:43:02.866198805Z"
+    created: "2019-11-22T10:32:25.243998647Z"
     description: Mailu mail system
     digest: 328c7545702c2f433562ae9195dac76ce1733f23b3211c4237c789921f152174
     name: mailu
@@ -40,12 +40,12 @@ entries:
   mariadb:
   - apiVersion: v1
     appVersion: 10.3.20
-    created: "2019-11-22T09:43:02.871026661Z"
+    created: "2019-11-22T10:32:25.248984176Z"
     description: Fast, reliable, scalable, and easy to use open-source relational
       database system. MariaDB Server is intended for mission-critical, heavy-load
       production systems as well as for embedding into mass-deployed software. Highly
       available MariaDB cluster.
-    digest: 2af8a616aa75d1a6c2815b97478e4809bc6b2e6d9f8c8aa414bd4f0e5d4f58c1
+    digest: 92fb7b26f25b78adf1c82507fea4ac4152b9e5123b99a33a96ea0b0b3ce24047
     engine: gotpl
     home: https://mariadb.org
     icon: https://bitnami.com/assets/stacks/mariadb/img/mariadb-stack-220x234.png
@@ -68,7 +68,7 @@ entries:
   nextcloud:
   - apiVersion: v1
     appVersion: 17.0.0
-    created: "2019-11-22T09:43:02.874927269Z"
+    created: "2019-11-22T10:32:25.2555731Z"
     description: A file sharing server that puts the control and security of your
       own data back into your hands.
     digest: e298ccb9ea6ed5096953b917454aae41be578c554165174c5527c7331640913d
@@ -91,14 +91,39 @@ entries:
     urls:
     - https://avesit.github.io/Charts/nextcloud-1.8.1.tgz
     version: 1.8.1
+  - apiVersion: v1
+    appVersion: 17.0.0
+    created: "2019-11-22T10:32:25.252250348Z"
+    description: A file sharing server that puts the control and security of your
+      own data back into your hands.
+    digest: e97178216fb0305689017aa318083f4c4930cc3168f16d6e32206fd675903106
+    home: https://nextcloud.com/
+    icon: https://cdn.rawgit.com/docker-library/docs/defa5ffc7123177acd60ddef6e16bddf694cc35f/nextcloud/logo.svg
+    keywords:
+    - nextcloud
+    - storage
+    - http
+    - web
+    - php
+    maintainers:
+    - email: christian.ingenhaag@googlemail.com
+      name: chrisingenhaag
+    - email: jeff@billimek.com
+      name: billimek
+    name: nextcloud
+    sources:
+    - https://github.com/nextcloud/docker
+    urls:
+    - https://avesit.github.io/Charts/nextcloud-1.8.1.1.tgz
+    version: 1.8.1.1
   redis:
   - apiVersion: v1
     appVersion: 5.0.7
-    created: "2019-11-22T09:43:02.876784065Z"
+    created: "2019-11-22T10:32:25.25737811Z"
     description: Open source, advanced key-value store. It is often referred to as
       a data structure server since keys can contain strings, hashes, lists, sets
       and sorted sets.
-    digest: 7bf22259b5b4434ae5005dab3eb281a6109e43d09e45a148826edf4cf384d10a
+    digest: bb806348de58bba527b83e261b21e9456e6d2b26050bfe9623d4bb1ad027a941
     engine: gotpl
     home: http://redis.io/
     icon: https://bitnami.com/assets/stacks/redis/img/redis-stack-220x234.png
@@ -117,4 +142,4 @@ entries:
     urls:
     - https://avesit.github.io/Charts/redis-9.5.5.tgz
     version: 9.5.5
-generated: "2019-11-22T09:43:02.865467691Z"
+generated: "2019-11-22T10:32:25.243204314Z"
