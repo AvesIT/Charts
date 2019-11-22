@@ -15,10 +15,10 @@ script:
         - ssh-add ~/.ssh/id_rsa
         - ./helm init --client-only
         - git clone --branch gh-pages git@github.com:AvesIT/Charts.git repo
-        - ./helm package mailu -d repo
-        - ./helm package redis -d repo
-        - ./helm package mariadb -d repo
-        - ./helm package nextcloud -d repo
+        - ./helm package mailu -d repo -u
+        - ./helm package redis -d repo -u
+        - ./helm package mariadb -d repo -u
+        - ./helm package nextcloud -d repo -u
         - ./helm repo index --url https://avesit.github.io/Charts/ repo
         - cd repo
         - git add .
