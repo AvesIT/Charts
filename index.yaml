@@ -1,18 +1,37 @@
 apiVersion: v1
 entries:
+  kube-plex:
+  - apiVersion: v1
+    appVersion: 1.16.0.1226-7eb2c8f6f
+    created: "2020-01-03T14:23:32.334337939Z"
+    description: Plex Media Server
+    digest: 769add9b340d22e61d9a15238238d65b3370a3523e0169c9dec19ca03e65567b
+    home: https://plex.tv/
+    icon: https://www.plex.tv/wp-content/uploads/2018/01/pmp-icon-1.png
+    keywords:
+    - plex
+    maintainers:
+    - name: munnerz
+    name: kube-plex
+    sources:
+    - https://github.com/munnerz/kube-plex
+    - https://hub.docker.com/r/plexinc/pms-docker/
+    urls:
+    - https://avesit.github.io/Charts/kube-plex-0.2.5.tgz
+    version: 0.2.5
   mailu:
   - apiVersion: v1
     appVersion: "1.8"
-    created: "2020-01-03T14:21:37.434054705Z"
+    created: "2020-01-03T14:23:32.33788347Z"
     description: Mailu mail system
-    digest: fb73b09d75e1c847b1cbad0cd7e019dfbce75753948a5fe9678b5299f2f3e39d
+    digest: 913aad8ab4db42bf4de806d82c2e5e5b952d0324de79a99cf3985d00def107d8
     name: mailu
     urls:
     - https://avesit.github.io/Charts/mailu-0.0.2.tgz
     version: 0.0.2
   - apiVersion: v1
     appVersion: "1.8"
-    created: "2020-01-03T14:21:37.432949279Z"
+    created: "2020-01-03T14:23:32.337077105Z"
     description: Mailu mail system
     digest: 1a5a4b3f5248801ce8a1c00f9d38c39239a77ef754ba188de024d1b964d1b2a2
     name: mailu
@@ -21,7 +40,7 @@ entries:
     version: 0.0.1
   - apiVersion: v1
     appVersion: "1.8"
-    created: "2020-01-03T14:21:37.432481344Z"
+    created: "2020-01-03T14:23:32.33628976Z"
     description: Mailu mail system
     digest: 939e0e14a1364253d066a646a432acbaeb06aa0ddeb3926ea5e2e17f5c0d2f84
     name: mailu
@@ -30,7 +49,7 @@ entries:
     version: 0.0.1.2
   - apiVersion: v1
     appVersion: "1.8"
-    created: "2020-01-03T14:21:37.431976052Z"
+    created: "2020-01-03T14:23:32.335451898Z"
     description: Mailu mail system
     digest: 328c7545702c2f433562ae9195dac76ce1733f23b3211c4237c789921f152174
     name: mailu
@@ -40,12 +59,12 @@ entries:
   mariadb:
   - apiVersion: v1
     appVersion: 10.3.20
-    created: "2020-01-03T14:21:37.436089418Z"
+    created: "2020-01-03T14:23:32.338833827Z"
     description: Fast, reliable, scalable, and easy to use open-source relational
       database system. MariaDB Server is intended for mission-critical, heavy-load
       production systems as well as for embedding into mass-deployed software. Highly
       available MariaDB cluster.
-    digest: 3b255a9d79921c77f9f936aa1e4054e9f749b6eb8925e56b7b6ed0028afc316e
+    digest: cc31862ecdf63be71457318b52e0bfd865dd0a31ff0758b5792866a4643f6ca5
     engine: gotpl
     home: https://mariadb.org
     icon: https://bitnami.com/assets/stacks/mariadb/img/mariadb-stack-220x234.png
@@ -68,7 +87,7 @@ entries:
   nextcloud:
   - apiVersion: v1
     appVersion: 17.0.0
-    created: "2020-01-03T14:21:37.442369999Z"
+    created: "2020-01-03T14:23:32.344150054Z"
     description: A file sharing server that puts the control and security of your
       own data back into your hands.
     digest: e298ccb9ea6ed5096953b917454aae41be578c554165174c5527c7331640913d
@@ -93,10 +112,10 @@ entries:
     version: 1.8.1
   - apiVersion: v1
     appVersion: 17.0.0
-    created: "2020-01-03T14:21:37.439581599Z"
+    created: "2020-01-03T14:23:32.34140766Z"
     description: A file sharing server that puts the control and security of your
       own data back into your hands.
-    digest: 8a4faf8a1464f704b2f21b11043cf3e7b51a06330bbfe0c66a07d76d3d165334
+    digest: f0de3a7db588cec3467dcdb8eb99c5e86463ab106aa0fb61522e7be337033cd2
     home: https://nextcloud.com/
     icon: https://cdn.rawgit.com/docker-library/docs/defa5ffc7123177acd60ddef6e16bddf694cc35f/nextcloud/logo.svg
     keywords:
@@ -119,11 +138,11 @@ entries:
   redis:
   - apiVersion: v1
     appVersion: 5.0.7
-    created: "2020-01-03T14:21:37.444543108Z"
+    created: "2020-01-03T14:23:32.346498937Z"
     description: Open source, advanced key-value store. It is often referred to as
       a data structure server since keys can contain strings, hashes, lists, sets
       and sorted sets.
-    digest: 7ccf2447096e7c806549ff263e1bb9a7a0533783cfa00620a6b02db106b71a5d
+    digest: 24c5f48ffb7428960c1a1f9b3f7629cc8399f0ffa390854ede1bbbfb4faef19c
     engine: gotpl
     home: http://redis.io/
     icon: https://bitnami.com/assets/stacks/redis/img/redis-stack-220x234.png
@@ -142,4 +161,4 @@ entries:
     urls:
     - https://avesit.github.io/Charts/redis-9.5.5.tgz
     version: 9.5.5
-generated: "2020-01-03T14:21:37.431315493Z"
+generated: "2020-01-03T14:23:32.33376404Z"
