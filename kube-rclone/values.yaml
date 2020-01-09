@@ -30,6 +30,8 @@ rclone:
     # - --vfs-read-chunk-size=128M
     # - --vfs-read-chunk-size-limit=off
     # - --drive-acknowledge-abuse=true
+  # specify existing configmap
+  configMap:
 
 resources: {}
   # We usually recommend not to specify default resources and to leave this as a conscious

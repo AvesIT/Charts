@@ -74,8 +74,7 @@ spec:
       - name: config
         emptyDir: {}
       - name: config-data
-        configMap:
-          name: {{ include "kube-rclone.fullname" . }}-configmap
+        configMap: {{ if .Values.rclone.configMap }}{{ .Values.rclone.configMap }}{{ else }}{{ include "kube-rclone.fullname" . }}-configmap {{ end }}
       - name: media
         hostPath:
           path: {{ .Values.rclone.path }}
