@@ -3,9 +3,9 @@ entries:
   kube-plex:
   - apiVersion: v1
     appVersion: 1.16.0.1226-7eb2c8f6f
-    created: "2020-01-09T12:04:03.101711888Z"
+    created: "2020-01-13T09:17:55.558271396Z"
     description: Plex Media Server
-    digest: a43123f161395220ab6d71064e47d928db51b9040de3fd47791dac2bccb2db7e
+    digest: bebf3cfa45a10b06118c80aabe6d0074a8af5c89e815afaa746131cbda424fdb
     home: https://plex.tv/
     icon: https://www.plex.tv/wp-content/uploads/2018/01/pmp-icon-1.png
     keywords:
@@ -22,9 +22,9 @@ entries:
   kube-rclone:
   - apiVersion: v1
     appVersion: v1.47.0
-    created: "2020-01-09T12:04:03.103124409Z"
+    created: "2020-01-13T09:17:55.559424834Z"
     description: A Helm chart for rclone
-    digest: 5d408140fd054606982fba686cc59ff0693e74367ba528f8746d8beddb7d8c3a
+    digest: 440f2591cf6db87dec82d31b565cfb54e89c6b107d66f8882305b1e451fe8676
     home: https://rclone.org/
     icon: https://rclone.org/img/rclone-16x16.png
     keywords:
@@ -40,7 +40,7 @@ entries:
     version: 0.1.1
   - apiVersion: v1
     appVersion: v1.47.0
-    created: "2020-01-09T12:04:03.102553074Z"
+    created: "2020-01-13T09:17:55.558875719Z"
     description: A Helm chart for rclone
     digest: 590cd5e624ad4e125e4ad987e63c087438fde79500d5edd02dacc2c9b6d220a9
     home: https://rclone.org/
@@ -59,16 +59,16 @@ entries:
   mailu:
   - apiVersion: v1
     appVersion: "1.8"
-    created: "2020-01-09T12:04:03.106014819Z"
+    created: "2020-01-13T09:17:55.561521483Z"
     description: Mailu mail system
-    digest: 28456a1bdfde2e5ec89d3506100d42a2811a7e533f75c4481cdf44f4979672fc
+    digest: cfd8ce28cd13b87ce6d1e984e957a84109922e44edb5275830ea967b40a2a004
     name: mailu
     urls:
     - https://avesit.github.io/Charts/mailu-0.0.2.tgz
     version: 0.0.2
   - apiVersion: v1
     appVersion: "1.8"
-    created: "2020-01-09T12:04:03.105587549Z"
+    created: "2020-01-13T09:17:55.561142948Z"
     description: Mailu mail system
     digest: 1a5a4b3f5248801ce8a1c00f9d38c39239a77ef754ba188de024d1b964d1b2a2
     name: mailu
@@ -77,7 +77,7 @@ entries:
     version: 0.0.1
   - apiVersion: v1
     appVersion: "1.8"
-    created: "2020-01-09T12:04:03.104785252Z"
+    created: "2020-01-13T09:17:55.56076523Z"
     description: Mailu mail system
     digest: 939e0e14a1364253d066a646a432acbaeb06aa0ddeb3926ea5e2e17f5c0d2f84
     name: mailu
@@ -86,7 +86,7 @@ entries:
     version: 0.0.1.2
   - apiVersion: v1
     appVersion: "1.8"
-    created: "2020-01-09T12:04:03.103959662Z"
+    created: "2020-01-13T09:17:55.560390071Z"
     description: Mailu mail system
     digest: 328c7545702c2f433562ae9195dac76ce1733f23b3211c4237c789921f152174
     name: mailu
@@ -96,12 +96,12 @@ entries:
   mariadb:
   - apiVersion: v1
     appVersion: 10.3.20
-    created: "2020-01-09T12:04:03.106978615Z"
+    created: "2020-01-13T09:17:55.562422705Z"
     description: Fast, reliable, scalable, and easy to use open-source relational
       database system. MariaDB Server is intended for mission-critical, heavy-load
       production systems as well as for embedding into mass-deployed software. Highly
       available MariaDB cluster.
-    digest: 1de7e7a76ea1953b4c37a64555ccd6f526f2ff9d1d0a888f89eccb446f92dc33
+    digest: fe084f2fa2e871881bf1a9920fd48cf47fd0e08b9baa6e063df9254860d68354
     engine: gotpl
     home: https://mariadb.org
     icon: https://bitnami.com/assets/stacks/mariadb/img/mariadb-stack-220x234.png
@@ -124,7 +124,7 @@ entries:
   nextcloud:
   - apiVersion: v1
     appVersion: 17.0.0
-    created: "2020-01-09T12:04:03.112414069Z"
+    created: "2020-01-13T09:17:55.569407085Z"
     description: A file sharing server that puts the control and security of your
       own data back into your hands.
     digest: e298ccb9ea6ed5096953b917454aae41be578c554165174c5527c7331640913d
@@ -149,10 +149,10 @@ entries:
     version: 1.8.1
   - apiVersion: v1
     appVersion: 17.0.0
-    created: "2020-01-09T12:04:03.109524687Z"
+    created: "2020-01-13T09:17:55.565196264Z"
     description: A file sharing server that puts the control and security of your
       own data back into your hands.
-    digest: 9cb10fad6dc19c07513d85548f48c29a32282be1ed31f2bcafafbd4d78a63077
+    digest: 4eab2de2811fa47ddf848f5338de98c64a5c8e90a0c7e1c40219b649709b7cda
     home: https://nextcloud.com/
     icon: https://cdn.rawgit.com/docker-library/docs/defa5ffc7123177acd60ddef6e16bddf694cc35f/nextcloud/logo.svg
     keywords:
@@ -175,11 +175,11 @@ entries:
   redis:
   - apiVersion: v1
     appVersion: 5.0.7
-    created: "2020-01-09T12:04:03.114895311Z"
+    created: "2020-01-13T09:17:55.571133976Z"
     description: Open source, advanced key-value store. It is often referred to as
       a data structure server since keys can contain strings, hashes, lists, sets
       and sorted sets.
-    digest: 91db66582d52adbf5d0a8cc0c1031c4016c0215be757e264fb4f7022192afea2
+    digest: 3e696eec545acfff298794f2e12a35ceb4273b867d068c9baab994f8c37a024f
     engine: gotpl
     home: http://redis.io/
     icon: https://bitnami.com/assets/stacks/redis/img/redis-stack-220x234.png
@@ -198,4 +198,4 @@ entries:
     urls:
     - https://avesit.github.io/Charts/redis-9.5.5.tgz
     version: 9.5.5
-generated: "2020-01-09T12:04:03.101074388Z"
+generated: "2020-01-13T09:17:55.55684848Z"
