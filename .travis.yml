@@ -21,6 +21,7 @@ script:
         - ./helm package nextcloud -d repo -u
         - ./helm package kube-plex -d repo -u
         - ./helm package kube-rclone -d repo -u
+        - ./helm package longhorn -d repo -u
         - ./helm repo index --url https://avesit.github.io/Charts/ repo
         - cd repo
         - git add .
