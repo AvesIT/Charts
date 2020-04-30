@@ -3,9 +3,9 @@ entries:
   kube-plex:
   - apiVersion: v1
     appVersion: 1.16.0.1226-7eb2c8f6f
-    created: "2020-04-17T08:46:02.353220468Z"
+    created: "2020-04-30T14:28:38.995783946Z"
     description: Plex Media Server
-    digest: 5b0086bddcc307a518881aa9183203b9e16eeb3d929fa1eb78158db593b0f0a2
+    digest: 2e2e7c07306728b64a31ab083e0b0d49343cceeef97cd06c7c3308f73b662094
     home: https://plex.tv/
     icon: https://www.plex.tv/wp-content/uploads/2018/01/pmp-icon-1.png
     keywords:
@@ -22,9 +22,9 @@ entries:
   kube-rclone:
   - apiVersion: v1
     appVersion: v1.47.0
-    created: "2020-04-17T08:46:02.354350171Z"
+    created: "2020-04-30T14:28:38.99698393Z"
     description: A Helm chart for rclone
-    digest: 4ffc66d6fd1ce04c8dfac3dec34b45877067be5bd9ff2bb8276a7bfad57e67d6
+    digest: 519a3dc1173988aa658e507ea8ec0fa9ada304cf8bd879eea73b30d912634c41
     home: https://rclone.org/
     icon: https://rclone.org/img/rclone-16x16.png
     keywords:
@@ -40,7 +40,7 @@ entries:
     version: 0.1.1
   - apiVersion: v1
     appVersion: v1.47.0
-    created: "2020-04-17T08:46:02.353803788Z"
+    created: "2020-04-30T14:28:38.996412324Z"
     description: A Helm chart for rclone
     digest: 590cd5e624ad4e125e4ad987e63c087438fde79500d5edd02dacc2c9b6d220a9
     home: https://rclone.org/
@@ -59,10 +59,10 @@ entries:
   longhorn:
   - apiVersion: v1
     appVersion: v0.8.0
-    created: "2020-04-17T08:46:02.355348904Z"
+    created: "2020-04-30T14:28:38.998111089Z"
     description: Longhorn is a distributed block storage system for Kubernetes powered
       by Rancher Labs.
-    digest: b0e98b05d028280edc67e83e9ddd25b3b455bcf738307591f045940ab68f03a3
+    digest: 8c48a62ace29396bfe86392bf928c0e864c842ee60f51ce1fcede21f30038a7e
     home: https://github.com/rancher/longhorn
     icon: https://raw.githubusercontent.com/cncf/artwork/master/projects/longhorn/horizontal/color/longhorn-horizontal-color.svg?sanitize=true
     keywords:
@@ -89,16 +89,16 @@ entries:
   mailu:
   - apiVersion: v1
     appVersion: "1.8"
-    created: "2020-04-17T08:46:02.356918094Z"
+    created: "2020-04-30T14:28:39.000053192Z"
     description: Mailu mail system
-    digest: 05a26a6b3cc36e69ede3f86f9c29c61b376299f70db59dad2c3e717592acc081
+    digest: fcb01c8ce1bddf57d858c3a336feef5dcc0f97fc4cf8d71bcb5811ecb4983e70
     name: mailu
     urls:
     - https://avesit.github.io/Charts/mailu-0.0.2.tgz
     version: 0.0.2
   - apiVersion: v1
     appVersion: "1.8"
-    created: "2020-04-17T08:46:02.356508761Z"
+    created: "2020-04-30T14:28:38.999632634Z"
     description: Mailu mail system
     digest: 1a5a4b3f5248801ce8a1c00f9d38c39239a77ef754ba188de024d1b964d1b2a2
     name: mailu
@@ -107,7 +107,7 @@ entries:
     version: 0.0.1
   - apiVersion: v1
     appVersion: "1.8"
-    created: "2020-04-17T08:46:02.356121803Z"
+    created: "2020-04-30T14:28:38.999206127Z"
     description: Mailu mail system
     digest: 939e0e14a1364253d066a646a432acbaeb06aa0ddeb3926ea5e2e17f5c0d2f84
     name: mailu
@@ -116,7 +116,7 @@ entries:
     version: 0.0.1.2
   - apiVersion: v1
     appVersion: "1.8"
-    created: "2020-04-17T08:46:02.355711803Z"
+    created: "2020-04-30T14:28:38.99880785Z"
     description: Mailu mail system
     digest: 328c7545702c2f433562ae9195dac76ce1733f23b3211c4237c789921f152174
     name: mailu
@@ -126,12 +126,12 @@ entries:
   mariadb:
   - apiVersion: v1
     appVersion: 10.3.20
-    created: "2020-04-17T08:46:02.357845236Z"
+    created: "2020-04-30T14:28:39.00101956Z"
     description: Fast, reliable, scalable, and easy to use open-source relational
       database system. MariaDB Server is intended for mission-critical, heavy-load
       production systems as well as for embedding into mass-deployed software. Highly
       available MariaDB cluster.
-    digest: e03deee4795b5a63989632b84504c86bf9c9f4422c1976cf946d5d9284769a9b
+    digest: 4aaddf191a16148fd4f79d78286c1714a42cbae27ac2f0cca4bf3dbdd3afedc8
     engine: gotpl
     home: https://mariadb.org
     icon: https://bitnami.com/assets/stacks/mariadb/img/mariadb-stack-220x234.png
@@ -154,9 +154,9 @@ entries:
   mum:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-04-17T08:46:02.358195584Z"
+    created: "2020-04-30T14:28:39.001392466Z"
     description: A Helm chart for Kubernetes
-    digest: 02956411f2e23cf47e596612f52986d996c5778aa26cb28f3dcd78d70667edea
+    digest: 38ff9e9d5eeade180ba761f8d5bf398a52b86971a7953d12648f7d6b6f3d4f82
     name: mum
     urls:
     - https://avesit.github.io/Charts/mum-0.1.0.tgz
@@ -164,7 +164,7 @@ entries:
   nextcloud:
   - apiVersion: v1
     appVersion: 17.0.0
-    created: "2020-04-17T08:46:02.365416081Z"
+    created: "2020-04-30T14:28:39.008601022Z"
     description: A file sharing server that puts the control and security of your
       own data back into your hands.
     digest: e298ccb9ea6ed5096953b917454aae41be578c554165174c5527c7331640913d
@@ -189,10 +189,10 @@ entries:
     version: 1.8.1
   - apiVersion: v1
     appVersion: 17.0.0
-    created: "2020-04-17T08:46:02.360965396Z"
+    created: "2020-04-30T14:28:39.004199275Z"
     description: A file sharing server that puts the control and security of your
       own data back into your hands.
-    digest: 1fadfe51c11853633445ff602b0f5c23e35320fee15952e328305a0f51f1d3f9
+    digest: 669522d54678dfef5fdd075c49a9a407b909cdaa63fa2fc94ec5c0884f104609
     home: https://nextcloud.com/
     icon: https://cdn.rawgit.com/docker-library/docs/defa5ffc7123177acd60ddef6e16bddf694cc35f/nextcloud/logo.svg
     keywords:
@@ -215,11 +215,11 @@ entries:
   redis:
   - apiVersion: v1
     appVersion: 5.0.7
-    created: "2020-04-17T08:46:02.366608107Z"
+    created: "2020-04-30T14:28:39.010657777Z"
     description: Open source, advanced key-value store. It is often referred to as
       a data structure server since keys can contain strings, hashes, lists, sets
       and sorted sets.
-    digest: 69a6ea495e4097799060cf3c463028c5f1cd666e20e1759fdc1894f67aebb8b3
+    digest: cb2c4928b9248c71cd6cfe1f1f3c042e99b6ddee23fc3a80a8b2da8643a6cb55
     engine: gotpl
     home: http://redis.io/
     icon: https://bitnami.com/assets/stacks/redis/img/redis-stack-220x234.png
@@ -238,4 +238,14 @@ entries:
     urls:
     - https://avesit.github.io/Charts/redis-9.5.5.tgz
     version: 9.5.5
-generated: "2020-04-17T08:46:02.351771262Z"
+  roundcube:
+  - apiVersion: v1
+    appVersion: 1.4.4
+    created: "2020-04-30T14:28:39.011037082Z"
+    description: A Helm chart for Kubernetes
+    digest: 07818e5e685104ab1d3e7dcde631e77e25d241e192ec913e3f76267fe712e252
+    name: roundcube
+    urls:
+    - https://avesit.github.io/Charts/roundcube-0.2.0.tgz
+    version: 0.2.0
+generated: "2020-04-30T14:28:38.994389962Z"
