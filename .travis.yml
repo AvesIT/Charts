@@ -15,9 +15,15 @@ script:
         - ssh-add ~/.ssh/id_rsa
         - ./helm init --client-only
         - git clone --branch gh-pages git@github.com:AvesIT/Charts.git repo
-        - for p in `find . -maxdepth 1 -type d|grep -v git | grep -v ^\.$`; do
-            ./helm package ${p} -d repo -u
-            done
+        - ./helm package kube-plex -d repo -u
+        - ./helm package kube-rclone -d repo -u
+        - ./helm package longhorn -d repo -u
+        - ./helm package mailu -d repo -u
+        - ./helm package mariadb -d repo -u
+        - ./helm package mum -d repo -u
+        - ./helm package nextcloud -d repo -u
+        - ./helm package redis -d repo -u
+        - ./helm package roundcube -d repo -u
         - ./helm repo index --url https://avesit.github.io/Charts/ repo
         - cd repo
         - git add .
