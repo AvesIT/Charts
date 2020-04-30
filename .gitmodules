@@ -1,0 +1,3 @@
+[submodule "roundcube"]
+	path = roundcube
+	url = git@github.com:AvesIT/helm-chart-roundcube
