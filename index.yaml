@@ -3,9 +3,9 @@ entries:
   kube-plex:
   - apiVersion: v1
     appVersion: 1.16.0.1226-7eb2c8f6f
-    created: "2020-09-09T15:08:28.787681408Z"
+    created: "2020-09-11T11:25:16.339776753Z"
     description: Plex Media Server
-    digest: e1f32f939771c9836ca74ddb9faa1492a54713bdb87058730bd0c15f0564e0c7
+    digest: a0a60ee161a5e0433b77f1959ce929f4f7dd555ea95c216c2de35fe326b92cda
     home: https://plex.tv/
     icon: https://www.plex.tv/wp-content/uploads/2018/01/pmp-icon-1.png
     keywords:
@@ -22,9 +22,9 @@ entries:
   kube-rclone:
   - apiVersion: v1
     appVersion: v1.47.0
-    created: "2020-09-09T15:08:28.788915748Z"
+    created: "2020-09-11T11:25:16.341086658Z"
     description: A Helm chart for rclone
-    digest: c12ea44f702e5498bf41dbd24a1cfe3eab688e4a855bbb1a6ae65553e5c08ff1
+    digest: ec769797d193c8b1731ea59a13acdbf8401712e1a34c747fdb1e7fe4aff7dc6e
     home: https://rclone.org/
     icon: https://rclone.org/img/rclone-16x16.png
     keywords:
@@ -40,7 +40,7 @@ entries:
     version: 0.1.1
   - apiVersion: v1
     appVersion: v1.47.0
-    created: "2020-09-09T15:08:28.788315767Z"
+    created: "2020-09-11T11:25:16.340455793Z"
     description: A Helm chart for rclone
     digest: 590cd5e624ad4e125e4ad987e63c087438fde79500d5edd02dacc2c9b6d220a9
     home: https://rclone.org/
@@ -59,9 +59,9 @@ entries:
   longhorn:
   - apiVersion: v1
     appVersion: v1.0.2
-    created: "2020-09-09T15:08:28.791890946Z"
+    created: "2020-09-11T11:25:16.344868624Z"
     description: Longhorn is a distributed block storage system for Kubernetes.
-    digest: 63337d265eee8376e22de74910362fdbe05861e94004c4fa7591d5380d83d2fe
+    digest: 660e06f083a8b6ab7b33e42715b7985144ba24508bb7efed2b27f0633f23701c
     home: https://github.com/longhorn/longhorn
     icon: https://raw.githubusercontent.com/cncf/artwork/master/projects/longhorn/icon/color/longhorn-icon-color.svg?sanitize=true
     keywords:
@@ -90,7 +90,7 @@ entries:
     version: 1.0.2
   - apiVersion: v1
     appVersion: v1.0.0
-    created: "2020-09-09T15:08:28.791222158Z"
+    created: "2020-09-11T11:25:16.344159893Z"
     description: Longhorn is a distributed block storage system for Kubernetes powered
       by Rancher Labs.
     digest: de7b8b69d69e55df941f62d0f8c6226c95dcbe4a303114395a961ccd516bd71c
@@ -120,7 +120,7 @@ entries:
     version: 1.0.0
   - apiVersion: v1
     appVersion: v0.8.1
-    created: "2020-09-09T15:08:28.790566585Z"
+    created: "2020-09-11T11:25:16.343464639Z"
     description: Longhorn is a distributed block storage system for Kubernetes powered
       by Rancher Labs.
     digest: eb1451080bfcb16596e0ae2c70f3b5eac87d5f41d6815fca8b4bb994cb88f46d
@@ -150,7 +150,7 @@ entries:
     version: 0.8.1
   - apiVersion: v1
     appVersion: v0.8.0
-    created: "2020-09-09T15:08:28.789964488Z"
+    created: "2020-09-11T11:25:16.342356424Z"
     description: Longhorn is a distributed block storage system for Kubernetes powered
       by Rancher Labs.
     digest: 7eaf90dcef53b2947ab4d7dc74b8e86095a49de6ea7e894eeffbe59ced96a574
@@ -180,16 +180,16 @@ entries:
   mailu:
   - apiVersion: v1
     appVersion: "1.8"
-    created: "2020-09-09T15:08:28.793530261Z"
+    created: "2020-09-11T11:25:16.346518417Z"
     description: Mailu mail system
-    digest: 5c5b0c4fcfacc758562ba5c275e9c9a7b3deb16340f8fbbd65428ecd40a67be6
+    digest: 00e8dc9ca0d047ffd0e9a519d87d3902d5c054731946526b3d1a85998b4ef6b1
     name: mailu
     urls:
     - https://avesit.github.io/Charts/mailu-0.0.2.tgz
     version: 0.0.2
   - apiVersion: v1
     appVersion: "1.8"
-    created: "2020-09-09T15:08:28.793140718Z"
+    created: "2020-09-11T11:25:16.346075084Z"
     description: Mailu mail system
     digest: 1a5a4b3f5248801ce8a1c00f9d38c39239a77ef754ba188de024d1b964d1b2a2
     name: mailu
@@ -198,7 +198,7 @@ entries:
     version: 0.0.1
   - apiVersion: v1
     appVersion: "1.8"
-    created: "2020-09-09T15:08:28.792760057Z"
+    created: "2020-09-11T11:25:16.345696824Z"
     description: Mailu mail system
     digest: 939e0e14a1364253d066a646a432acbaeb06aa0ddeb3926ea5e2e17f5c0d2f84
     name: mailu
@@ -207,7 +207,7 @@ entries:
     version: 0.0.1.2
   - apiVersion: v1
     appVersion: "1.8"
-    created: "2020-09-09T15:08:28.79236698Z"
+    created: "2020-09-11T11:25:16.345305659Z"
     description: Mailu mail system
     digest: 328c7545702c2f433562ae9195dac76ce1733f23b3211c4237c789921f152174
     name: mailu
@@ -217,12 +217,12 @@ entries:
   mariadb:
   - apiVersion: v1
     appVersion: 10.3.20
-    created: "2020-09-09T15:08:28.7945832Z"
+    created: "2020-09-11T11:25:16.347565058Z"
     description: Fast, reliable, scalable, and easy to use open-source relational
       database system. MariaDB Server is intended for mission-critical, heavy-load
       production systems as well as for embedding into mass-deployed software. Highly
       available MariaDB cluster.
-    digest: 608504e170a86f0202ca083516757e8ff9445773f25d7e845ba49b54a163257a
+    digest: e3dab8973ccef0e4bb2bc1da38a3c2289f2ded9d3bd58a5729869c17b3519490
     engine: gotpl
     home: https://mariadb.org
     icon: https://bitnami.com/assets/stacks/mariadb/img/mariadb-stack-220x234.png
@@ -245,9 +245,9 @@ entries:
   mum:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-09-09T15:08:28.794993999Z"
+    created: "2020-09-11T11:25:16.347989148Z"
     description: A Helm chart for Kubernetes
-    digest: da9d3b05439edab03d5b6633f770b43af73887c8c5f546b8745d04ce4df3590a
+    digest: f7b5c4c2a2327bca6c54303794222bfe4346bc57735f88c106aa3f9bb7a1bf82
     name: mum
     urls:
     - https://avesit.github.io/Charts/mum-0.1.0.tgz
@@ -255,7 +255,7 @@ entries:
   nextcloud:
   - apiVersion: v1
     appVersion: 17.0.0
-    created: "2020-09-09T15:08:28.802815015Z"
+    created: "2020-09-11T11:25:16.355806582Z"
     description: A file sharing server that puts the control and security of your
       own data back into your hands.
     digest: e298ccb9ea6ed5096953b917454aae41be578c554165174c5527c7331640913d
@@ -280,10 +280,10 @@ entries:
     version: 1.8.1
   - apiVersion: v1
     appVersion: 17.0.0
-    created: "2020-09-09T15:08:28.79890849Z"
+    created: "2020-09-11T11:25:16.351254999Z"
     description: A file sharing server that puts the control and security of your
       own data back into your hands.
-    digest: e57591f6ce4a38a4c4132222b82bc6e56ea425182ae28566a951d9d22a72e755
+    digest: b3882eda3a35d188c4333865493a3cf9ba981c13675cdfa2d9f639f766bd0c62
     home: https://nextcloud.com/
     icon: https://cdn.rawgit.com/docker-library/docs/defa5ffc7123177acd60ddef6e16bddf694cc35f/nextcloud/logo.svg
     keywords:
@@ -306,11 +306,11 @@ entries:
   redis:
   - apiVersion: v1
     appVersion: 5.0.7
-    created: "2020-09-09T15:08:28.804189445Z"
+    created: "2020-09-11T11:25:16.35714133Z"
     description: Open source, advanced key-value store. It is often referred to as
       a data structure server since keys can contain strings, hashes, lists, sets
       and sorted sets.
-    digest: 82f35b388fafcc97d80e81d2e7b99c0e179ec37b3dfc8cf02610d6f9305a1db5
+    digest: 4b18c6a028e9efec3d595d139378e343f705c19f607476f99ed21c5adde4799a
     engine: gotpl
     home: http://redis.io/
     icon: https://bitnami.com/assets/stacks/redis/img/redis-stack-220x234.png
@@ -331,12 +331,22 @@ entries:
     version: 9.5.5
   roundcube:
   - apiVersion: v1
+    appVersion: 1.4.8
+    created: "2020-09-11T11:25:16.357955733Z"
+    description: A Helm chart for Kubernetes
+    digest: 692d146d5501dd5244a9540004862040e613a17fdcd2166efe0f4ccf0d504fd4
+    icon: https://github.com/roundcube/roundcubemail/blob/master/skins/classic/images/roundcube_logo.png
+    name: roundcube
+    urls:
+    - https://avesit.github.io/Charts/roundcube-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v1
     appVersion: 1.4.4
-    created: "2020-09-09T15:08:28.804565423Z"
+    created: "2020-09-11T11:25:16.357537246Z"
     description: A Helm chart for Kubernetes
     digest: 174da061510572f81bf19b746f95dacc0e4660e3e2798d71c02a652a0dc9db98
     name: roundcube
     urls:
     - https://avesit.github.io/Charts/roundcube-0.2.0.tgz
     version: 0.2.0
-generated: "2020-09-09T15:08:28.786438099Z"
+generated: "2020-09-11T11:25:16.338589651Z"
